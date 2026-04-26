@@ -1,11 +1,13 @@
 {
-  "package_id": "com.example.partnerlens",
+  "package_id": "com.partnerlens.app",
   "edition": "202601",
   "name": "PartnerLens",
   "version": "0.1.0",
   "min_app_version": "2.0.0",
   "min_sdk_version": "0.0.10",
   "entrypoint": "index.html",
-  "permissions": [],
+  "permissions": [
+    { "name": "g2-microphone", "desc": "Capture audio to detect conversation cues" }
+  ],
   "supported_languages": ["en"]
 }
